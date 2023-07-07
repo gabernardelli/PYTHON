@@ -1,0 +1,15 @@
+# CRIANDO UM CONVERSOR DE MOEDAS (DÓLAR E EURO)
+
+re = float(input('Quantos reais vc tem: R$ '))
+  
+dol = float(input('Digite a cotação do dólar: U$ '))
+  
+eur = float(input('Digite a cotação do euro: EUR '))
+  
+cd = re/dol
+  
+ce = re/eur
+  
+print('Com R$ {} reais, você pode comprar U$ {:.2f} dolares'.format(re, cd))
+  
+print('Com R$ {} reais, você pode comprar EUR {:.2f} euros'.format(re, ce))
